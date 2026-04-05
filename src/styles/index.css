@@ -1,9 +1,12 @@
-.delete-btn {
-    opacity: 0;
-    transition: opacity 0.2s ease-in-out;
-    cursor: pointer;
+body {
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
 }
 
-.task-item:hover .delete-btn {
-    opacity: 1;
+.container {
+    max-width: 600px;
+}
+
+.list-group-item {
+    font-size: 18px;
 }
